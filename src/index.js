@@ -1,12 +1,15 @@
 // src/index.js
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
+import createStore from './store'
 
 import Routes from './routes';
 
 import './index.css';
 
-ReactDOM.render(
-  <Routes />,
+let store = createStore();
+
+render(
+  <Routes store={store} />,
   document.getElementById('root')
 );
