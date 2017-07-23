@@ -5,7 +5,9 @@ import createStore from './store'
 
 import Routes from './routes';
 
-import './index.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+
 
 let store = createStore();
 

@@ -27,9 +27,9 @@ class PersonInput extends Component {
         firstNameElement.focus();
     }
 
-    componentDidMount() {
-        document.getElementById('firstname').focus();
-    }
+    // componentDidMount() {
+    //     document.getElementById('firstname').focus();
+    // }
 
     render() {
         return (
