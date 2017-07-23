@@ -1,8 +1,8 @@
-import people from './people-reducer.js';
-import {combineReducers} from 'redux';
+import cart from './cart'
+import { combineReducers } from 'redux'
 
-const rootReducer = combineReducers({
-    people
-});
+const rootReducer = combineReducers( {
+    cart
+} )
 
-export default rootReducer;
+export default rootReducer

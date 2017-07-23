@@ -1,15 +1,16 @@
-// src/index.js
-import React from 'react';
-import { render } from 'react-dom';
-import createStore from './store'
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
+import './index.css'
 
-import Routes from './routes';
+import { Provider } from 'react-redux'
+import Store from './store'
 
-import './index.css';
+const StoreInstance = Store()
 
-let store = createStore();
-
-render(
-  <Routes store={store} />,
-  document.getElementById('root')
-);
+ReactDOM.render(
+    <Provider store={ StoreInstance }>
+        <App />
+    </Provider>,
+  document.getElementById( 'root' )
+)

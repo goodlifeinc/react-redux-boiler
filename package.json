@@ -1,40 +1,29 @@
 {
-  "name": "app",
+  "name": "react-app-demo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "classnames": "^2.2.5",
-    "muicss": "^0.9.16",
+    "i": "^0.3.5",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-redux": "^5.0.4",
-    "react-router": "^4.1.1",
-    "react-router-dom": "^4.1.1",
     "redux": "^3.6.0"
   },
   "devDependencies": {
-    "babel-eslint": "^7.1.1",
-    "eslint": "^3.16.1",
-    "eslint-config-react-app": "^0.6.2",
-    "eslint-plugin-flowtype": "^2.21.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-config-standard-react": "^4.3.0",
+    "eslint-config-standart": "^0.2.0",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.4.1",
-    "lint-staged": "^3.4.1",
-    "pre-commit": "^1.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^6.10.3",
+    "eslint-plugin-standard": "^3.0.1",
     "react-scripts": "0.9.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "lint-staged": "lint-staged"
-  },
-  "lint-staged": {
-    "*.js": "eslint"
-  },
-  "pre-commit": [
-    "lint-staged"
-  ]
+    "eject": "react-scripts eject"
+  }
 }
